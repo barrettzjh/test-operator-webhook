@@ -1,0 +1,7 @@
+domain: test.zhangjinhui.online
+repo: zhangjinhui.online/m
+resources:
+- group: test
+  kind: Test
+  version: v1
+version: "2"

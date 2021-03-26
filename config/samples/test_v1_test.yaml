@@ -1,0 +1,11 @@
+apiVersion: test.test.zhangjinhui.online/v1
+kind: Test
+metadata:
+  name: test-sample
+spec:
+  # Add fields here
+  image: harbor.yunyang.com.cn/library/policyinit:v0.2
+  replicas: 3
+  port: 80
+  targetPort: 80
+  nodePort: 30043
